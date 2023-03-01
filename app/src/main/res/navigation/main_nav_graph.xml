@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_gragh"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.francis.popularmovies.home.view.ui.MovieListFragment"
+        tools:layout="@layout/movies_list_fragment">
+        <action
+            android:id="@+id/action_showDetail"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.francis.popularmovies.home.view.ui.MovieDetailFragment"
+        tools:layout="@layout/movie_detail_fragment">
+
+        <argument
+            android:name="selectedMovie"
+            app:argType="com.francis.popularmovies.home.model.Movie"/>
+
+    </fragment>
+</navigation>

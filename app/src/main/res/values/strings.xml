@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="rating">Rating</string>
+    <string name="plot">Plot</string>
+    <string name="date">Release Date</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="top_rated">Top Rated Movies</string>
+    <string name="no_data">No Movies, Please Refresh</string>
+</resources>
