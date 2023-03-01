@@ -17,7 +17,6 @@ This project brings to table set of best practices, tools, and solutions:
 * Testing (Unit)
 * Material design
 * View Binding
-* CI with GitHub Actions
 
 ## Tech-stack
 Min API level is set to [`21`](https://android-arsenal.com/api?level=21), so the presented approach is suitable for over
