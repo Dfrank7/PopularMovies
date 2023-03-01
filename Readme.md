@@ -16,6 +16,7 @@ This project brings to table set of best practices, tools, and solutions:
 * Reactive UI
 * Testing (Unit)
 * Material design
+* View Binding
 * CI with GitHub Actions
 
 ## Tech-stack
